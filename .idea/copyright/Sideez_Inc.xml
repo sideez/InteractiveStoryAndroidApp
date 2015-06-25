@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
     <option name="myName" value="Sideez Inc" />
-    <option name="notice" value="Copyright (c) &amp;#36;today.year." />
+    <option name="notice" value="Copyright (c) &amp;#36;today.year. &amp;#36;name" />
   </copyright>
 </component>
