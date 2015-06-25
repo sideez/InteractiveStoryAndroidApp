@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015.
+ * Copyright (c) 2015. Sideez Inc.
  */
 
 package com.sideez.interactivestory;
