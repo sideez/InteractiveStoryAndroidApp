@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2015. Sideez Inc.
+ */
+
 package com.sideez.interactivestory.ui;
 
 import android.content.Intent;
@@ -37,4 +41,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mNameField.setText("");
+    }
 }

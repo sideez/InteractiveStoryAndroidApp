@@ -7,6 +7,7 @@ package com.sideez.interactivestory.model;
 /**
  * Created by sideez on 2015-06-25.
  */
+
 public class Page {
     private int mImageId; // Image for page
     private String mText; // Copy for the page
@@ -26,7 +27,7 @@ public class Page {
         mText = text;
         mChoice1 = null;
         mChoice2 = null;
-
+        mIsFinal = true;
     }
 
     public int getImageId() {
